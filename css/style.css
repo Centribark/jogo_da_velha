@@ -36,12 +36,3 @@ div#tabuleiro .quadrado{
     height: 80px;
     background-color: rgb(255, 238, 0);
 }
-
-.fg{
-    display: none;
-    transition: display 2s;
-}
-
-.fg:hover{
-    display: block;
-}
