@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+header{
+    padding-top: 130px;
+}
+
+p{
+    margin: 0px 0px 0px 0px;
+    width: 110px;
+}
+
+div#jogador{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#tabuleiro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 260px;
+    padding: 5px 2px 2px 3px;
+}
+
+div#tabuleiro .quadrado{
+    border: solid rgb(253, 0, 0) 2px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 238, 0);
+}
+
+.fg{
+    display: none;
+    transition: display 2s;
+}
+
+.fg:hover{
+    display: block;
+}
